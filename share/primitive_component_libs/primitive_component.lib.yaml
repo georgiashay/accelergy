@@ -116,6 +116,15 @@ classes:
       - name: write
       - name: idle
 
+  - name: Disk
+    attributes:
+      technology: 65nm
+      width: 64
+    actions:
+      - name: read
+      - name: write 
+      - name: idle
+
   - name: counter
     attributes:
       technology: 65nm
